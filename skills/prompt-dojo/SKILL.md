@@ -7,7 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [prompting, education, dojo, evals, agents, templates]
-    related_skills: []
+    related_skills: [teach-mode]
 ---
 
 # Prompt Dojo
@@ -36,6 +36,8 @@ Use this skill when the user asks for:
 Do not use this for coding-problem practice unless the user explicitly asks to write prompts for coding agents. Coding exercises belong in a coding dojo; Prompt Dojo trains instruction design.
 
 ## Core Stance
+
+Load and follow the umbrella `teach-mode` skill when available. Prompt Dojo adds prompt-specific lesson loops, scorecards, rewrites, and reusable template handling.
 
 The learner writes first.
 
