@@ -6,7 +6,8 @@ It teaches prompt design through short reps: learn one concept, compare bad and 
 
 ## What this includes
 
-- `skills/prompt-dojo/SKILL.md` — the teaching workflow and guardrails.
+- `skills/teach-mode/SKILL.md` — umbrella learner-first coaching contract used by the dojo.
+- `skills/prompt-dojo/SKILL.md` — prompt-specific teaching workflow and guardrails.
 - `skills/prompt-dojo/references/lesson-template.md` — reusable lesson format.
 - `lessons/01-basic-prompt-structure.md` — first public lesson.
 - `templates/basic-task-context-constraints-output.md` — starter template.
@@ -25,6 +26,8 @@ It teaches prompt design through short reps: learn one concept, compare bad and 
 This is active practice.
 
 The learner writes first. The agent teaches, critiques, scores, and helps refine after the attempt.
+
+This repo includes `teach-mode` directly so users do not need a separate dependency for the learning contract. If you prefer not to vendor it in another skill bundle, install the standalone `teach-mode-skill` repo alongside that bundle.
 
 ## First rep
 
@@ -48,6 +51,8 @@ prompt-dojo-skill/
 ├── lessons/
 │   └── 01-basic-prompt-structure.md
 ├── skills/
+│   ├── teach-mode/
+│   │   └── SKILL.md
 │   └── prompt-dojo/
 │       ├── SKILL.md
 │       └── references/
